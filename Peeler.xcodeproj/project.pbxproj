@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784D4ED6174FC3C900F32E28 /* YGExecutableDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D4ED5174FC3C900F32E28 /* YGExecutableDocument.m */; };
+		784D4EDB174FC6D600F32E28 /* executable.png in Resources */ = {isa = PBXBuildFile; fileRef = 784D4EDA174FC6D600F32E28 /* executable.png */; };
+		784D4EDF174FCD9D00F32E28 /* YGExecutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D4EDE174FCD9D00F32E28 /* YGExecutable.m */; };
+		784D4EE8174FD38B00F32E28 /* YGMachO64.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D4EE7174FD38B00F32E28 /* YGMachO64.m */; };
+		784D4EEB174FD3BD00F32E28 /* YGMachO32.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D4EEA174FD3BD00F32E28 /* YGMachO32.m */; };
+		788108C6174FBA7900AAFC74 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788108C5174FBA7900AAFC74 /* Cocoa.framework */; };
+		788108D0174FBA7900AAFC74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788108CE174FBA7900AAFC74 /* InfoPlist.strings */; };
+		788108D2174FBA7900AAFC74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788108D1174FBA7900AAFC74 /* main.m */; };
+		788108D6174FBA7900AAFC74 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 788108D4174FBA7900AAFC74 /* Credits.rtf */; };
+		788108DC174FBA7900AAFC74 /* YGExecutableDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788108DA174FBA7900AAFC74 /* YGExecutableDocument.xib */; };
+		788108DF174FBA7A00AAFC74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788108DD174FBA7A00AAFC74 /* MainMenu.xib */; };
+		788108E7174FBA7A00AAFC74 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788108E6174FBA7A00AAFC74 /* SenTestingKit.framework */; };
+		788108E8174FBA7A00AAFC74 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788108C5174FBA7900AAFC74 /* Cocoa.framework */; };
+		788108F0174FBA7A00AAFC74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788108EE174FBA7A00AAFC74 /* InfoPlist.strings */; };
+		788108F3174FBA7A00AAFC74 /* PeelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788108F2174FBA7A00AAFC74 /* PeelerTests.m */; };
+		78810902174FBD1400AAFC74 /* YGFatBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 78810901174FBD1400AAFC74 /* YGFatBinary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788108E9174FBA7A00AAFC74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788108BA174FBA7900AAFC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788108C1174FBA7900AAFC74;
+			remoteInfo = Peeler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		784D4ED4174FC3C900F32E28 /* YGExecutableDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGExecutableDocument.h; sourceTree = "<group>"; };
+		784D4ED5174FC3C900F32E28 /* YGExecutableDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGExecutableDocument.m; sourceTree = "<group>"; };
+		784D4EDA174FC6D600F32E28 /* executable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = executable.png; path = Ressources/executable.png; sourceTree = "<group>"; };
+		784D4EDD174FCD9D00F32E28 /* YGExecutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGExecutable.h; sourceTree = "<group>"; };
+		784D4EDE174FCD9D00F32E28 /* YGExecutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGExecutable.m; sourceTree = "<group>"; };
+		784D4EE6174FD38B00F32E28 /* YGMachO64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMachO64.h; sourceTree = "<group>"; };
+		784D4EE7174FD38B00F32E28 /* YGMachO64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGMachO64.m; sourceTree = "<group>"; };
+		784D4EE9174FD3BD00F32E28 /* YGMachO32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMachO32.h; sourceTree = "<group>"; };
+		784D4EEA174FD3BD00F32E28 /* YGMachO32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGMachO32.m; sourceTree = "<group>"; };
+		788108C2174FBA7900AAFC74 /* Peeler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peeler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788108C5174FBA7900AAFC74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		788108C8174FBA7900AAFC74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		788108C9174FBA7900AAFC74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		788108CA174FBA7900AAFC74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788108CD174FBA7900AAFC74 /* Peeler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Peeler-Info.plist"; sourceTree = "<group>"; };
+		788108CF174FBA7900AAFC74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788108D1174FBA7900AAFC74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		788108D3174FBA7900AAFC74 /* Peeler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peeler-Prefix.pch"; sourceTree = "<group>"; };
+		788108D5174FBA7900AAFC74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		788108DB174FBA7900AAFC74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YGExecutableDocument.xib; sourceTree = "<group>"; };
+		788108DE174FBA7A00AAFC74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		788108E5174FBA7A00AAFC74 /* PeelerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeelerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		788108E6174FBA7A00AAFC74 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		788108ED174FBA7A00AAFC74 /* PeelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeelerTests-Info.plist"; sourceTree = "<group>"; };
+		788108EF174FBA7A00AAFC74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788108F1174FBA7A00AAFC74 /* PeelerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeelerTests.h; sourceTree = "<group>"; };
+		788108F2174FBA7A00AAFC74 /* PeelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeelerTests.m; sourceTree = "<group>"; };
+		78810900174FBD1400AAFC74 /* YGFatBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGFatBinary.h; sourceTree = "<group>"; };
+		78810901174FBD1400AAFC74 /* YGFatBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGFatBinary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788108BF174FBA7900AAFC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788108C6174FBA7900AAFC74 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788108E1174FBA7A00AAFC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788108E7174FBA7A00AAFC74 /* SenTestingKit.framework in Frameworks */,
+				788108E8174FBA7A00AAFC74 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		784D4ED7174FC6A900F32E28 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				784D4EDA174FC6D600F32E28 /* executable.png */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		784D4EDC174FCD6D00F32E28 /* Executable */ = {
+			isa = PBXGroup;
+			children = (
+				788108FF174FBD0100AAFC74 /* Mac */,
+				784D4EDD174FCD9D00F32E28 /* YGExecutable.h */,
+				784D4EDE174FCD9D00F32E28 /* YGExecutable.m */,
+			);
+			name = Executable;
+			sourceTree = "<group>";
+		};
+		788108B9174FBA7900AAFC74 = {
+			isa = PBXGroup;
+			children = (
+				788108CB174FBA7900AAFC74 /* Peeler */,
+				788108EB174FBA7A00AAFC74 /* PeelerTests */,
+				788108C4174FBA7900AAFC74 /* Frameworks */,
+				788108C3174FBA7900AAFC74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788108C3174FBA7900AAFC74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788108C2174FBA7900AAFC74 /* Peeler.app */,
+				788108E5174FBA7A00AAFC74 /* PeelerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788108C4174FBA7900AAFC74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788108C5174FBA7900AAFC74 /* Cocoa.framework */,
+				788108E6174FBA7A00AAFC74 /* SenTestingKit.framework */,
+				788108C7174FBA7900AAFC74 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788108C7174FBA7900AAFC74 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788108C8174FBA7900AAFC74 /* AppKit.framework */,
+				788108C9174FBA7900AAFC74 /* CoreData.framework */,
+				788108CA174FBA7900AAFC74 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		788108CB174FBA7900AAFC74 /* Peeler */ = {
+			isa = PBXGroup;
+			children = (
+				784D4ED7174FC6A900F32E28 /* Ressources */,
+				784D4ED4174FC3C900F32E28 /* YGExecutableDocument.h */,
+				784D4ED5174FC3C900F32E28 /* YGExecutableDocument.m */,
+				784D4EDC174FCD6D00F32E28 /* Executable */,
+				788108DA174FBA7900AAFC74 /* YGExecutableDocument.xib */,
+				788108DD174FBA7A00AAFC74 /* MainMenu.xib */,
+				788108CC174FBA7900AAFC74 /* Supporting Files */,
+			);
+			path = Peeler;
+			sourceTree = "<group>";
+		};
+		788108CC174FBA7900AAFC74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788108CD174FBA7900AAFC74 /* Peeler-Info.plist */,
+				788108CE174FBA7900AAFC74 /* InfoPlist.strings */,
+				788108D1174FBA7900AAFC74 /* main.m */,
+				788108D3174FBA7900AAFC74 /* Peeler-Prefix.pch */,
+				788108D4174FBA7900AAFC74 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788108EB174FBA7A00AAFC74 /* PeelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				788108F1174FBA7A00AAFC74 /* PeelerTests.h */,
+				788108F2174FBA7A00AAFC74 /* PeelerTests.m */,
+				788108EC174FBA7A00AAFC74 /* Supporting Files */,
+			);
+			path = PeelerTests;
+			sourceTree = "<group>";
+		};
+		788108EC174FBA7A00AAFC74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788108ED174FBA7A00AAFC74 /* PeelerTests-Info.plist */,
+				788108EE174FBA7A00AAFC74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788108FF174FBD0100AAFC74 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				78810900174FBD1400AAFC74 /* YGFatBinary.h */,
+				78810901174FBD1400AAFC74 /* YGFatBinary.m */,
+				784D4EE6174FD38B00F32E28 /* YGMachO64.h */,
+				784D4EE7174FD38B00F32E28 /* YGMachO64.m */,
+				784D4EE9174FD3BD00F32E28 /* YGMachO32.h */,
+				784D4EEA174FD3BD00F32E28 /* YGMachO32.m */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788108C1174FBA7900AAFC74 /* Peeler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788108F6174FBA7A00AAFC74 /* Build configuration list for PBXNativeTarget "Peeler" */;
+			buildPhases = (
+				788108BE174FBA7900AAFC74 /* Sources */,
+				788108BF174FBA7900AAFC74 /* Frameworks */,
+				788108C0174FBA7900AAFC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peeler;
+			productName = Peeler;
+			productReference = 788108C2174FBA7900AAFC74 /* Peeler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788108E4174FBA7A00AAFC74 /* PeelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788108F9174FBA7A00AAFC74 /* Build configuration list for PBXNativeTarget "PeelerTests" */;
+			buildPhases = (
+				788108E0174FBA7A00AAFC74 /* Sources */,
+				788108E1174FBA7A00AAFC74 /* Frameworks */,
+				788108E2174FBA7A00AAFC74 /* Resources */,
+				788108E3174FBA7A00AAFC74 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788108EA174FBA7A00AAFC74 /* PBXTargetDependency */,
+			);
+			name = PeelerTests;
+			productName = PeelerTests;
+			productReference = 788108E5174FBA7A00AAFC74 /* PeelerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788108BA174FBA7900AAFC74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "YaGeek's Company";
+			};
+			buildConfigurationList = 788108BD174FBA7900AAFC74 /* Build configuration list for PBXProject "Peeler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 788108B9174FBA7900AAFC74;
+			productRefGroup = 788108C3174FBA7900AAFC74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788108C1174FBA7900AAFC74 /* Peeler */,
+				788108E4174FBA7A00AAFC74 /* PeelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788108C0174FBA7900AAFC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788108D0174FBA7900AAFC74 /* InfoPlist.strings in Resources */,
+				788108D6174FBA7900AAFC74 /* Credits.rtf in Resources */,
+				788108DC174FBA7900AAFC74 /* YGExecutableDocument.xib in Resources */,
+				788108DF174FBA7A00AAFC74 /* MainMenu.xib in Resources */,
+				784D4EDB174FC6D600F32E28 /* executable.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788108E2174FBA7A00AAFC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788108F0174FBA7A00AAFC74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788108E3174FBA7A00AAFC74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788108BE174FBA7900AAFC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788108D2174FBA7900AAFC74 /* main.m in Sources */,
+				78810902174FBD1400AAFC74 /* YGFatBinary.m in Sources */,
+				784D4ED6174FC3C900F32E28 /* YGExecutableDocument.m in Sources */,
+				784D4EDF174FCD9D00F32E28 /* YGExecutable.m in Sources */,
+				784D4EE8174FD38B00F32E28 /* YGMachO64.m in Sources */,
+				784D4EEB174FD3BD00F32E28 /* YGMachO32.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788108E0174FBA7A00AAFC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788108F3174FBA7A00AAFC74 /* PeelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788108EA174FBA7A00AAFC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788108C1174FBA7900AAFC74 /* Peeler */;
+			targetProxy = 788108E9174FBA7A00AAFC74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788108CE174FBA7900AAFC74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788108CF174FBA7900AAFC74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		788108D4174FBA7900AAFC74 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788108D5174FBA7900AAFC74 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		788108DA174FBA7900AAFC74 /* YGExecutableDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788108DB174FBA7900AAFC74 /* en */,
+			);
+			name = YGExecutableDocument.xib;
+			sourceTree = "<group>";
+		};
+		788108DD174FBA7A00AAFC74 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788108DE174FBA7A00AAFC74 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		788108EE174FBA7A00AAFC74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788108EF174FBA7A00AAFC74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788108F4174FBA7A00AAFC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		788108F5174FBA7A00AAFC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		788108F7174FBA7A00AAFC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peeler/Peeler-Prefix.pch";
+				INFOPLIST_FILE = "Peeler/Peeler-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		788108F8174FBA7A00AAFC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peeler/Peeler-Prefix.pch";
+				INFOPLIST_FILE = "Peeler/Peeler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		788108FA174FBA7A00AAFC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peeler.app/Contents/MacOS/Peeler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peeler/Peeler-Prefix.pch";
+				INFOPLIST_FILE = "PeelerTests/PeelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		788108FB174FBA7A00AAFC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Peeler.app/Contents/MacOS/Peeler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Peeler/Peeler-Prefix.pch";
+				INFOPLIST_FILE = "PeelerTests/PeelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788108BD174FBA7900AAFC74 /* Build configuration list for PBXProject "Peeler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788108F4174FBA7A00AAFC74 /* Debug */,
+				788108F5174FBA7A00AAFC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788108F6174FBA7A00AAFC74 /* Build configuration list for PBXNativeTarget "Peeler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788108F7174FBA7A00AAFC74 /* Debug */,
+				788108F8174FBA7A00AAFC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788108F9174FBA7A00AAFC74 /* Build configuration list for PBXNativeTarget "PeelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788108FA174FBA7A00AAFC74 /* Debug */,
+				788108FB174FBA7A00AAFC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788108BA174FBA7900AAFC74 /* Project object */;
+}
