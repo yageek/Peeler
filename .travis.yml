@@ -1,4 +1,7 @@
 language: objective-c
-branches:
-        only:
-                - development
+before_install:
+        - brew update
+        - brew install xctool --HEAD
+        - bundle install
+script:
+        rake test --trace
