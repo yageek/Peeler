@@ -23,6 +23,7 @@
 		788108F0174FBA7A00AAFC74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788108EE174FBA7A00AAFC74 /* InfoPlist.strings */; };
 		788108F3174FBA7A00AAFC74 /* PeelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788108F2174FBA7A00AAFC74 /* PeelerTests.m */; };
 		78810902174FBD1400AAFC74 /* YGFatBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 78810901174FBD1400AAFC74 /* YGFatBinary.m */; };
+		789F26CF17FB297D00C50B90 /* YGGCov.m in Sources */ = {isa = PBXBuildFile; fileRef = 789F26CE17FB297D00C50B90 /* YGGCov.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		788108F2174FBA7A00AAFC74 /* PeelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeelerTests.m; sourceTree = "<group>"; };
 		78810900174FBD1400AAFC74 /* YGFatBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGFatBinary.h; sourceTree = "<group>"; };
 		78810901174FBD1400AAFC74 /* YGFatBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGFatBinary.m; sourceTree = "<group>"; };
+		789F26CD17FB297D00C50B90 /* YGGCov.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YGGCov.h; path = ../YGGCov.h; sourceTree = "<group>"; };
+		789F26CE17FB297D00C50B90 /* YGGCov.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YGGCov.m; path = ../YGGCov.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				784D4ED7174FC6A900F32E28 /* Ressources */,
 				784D4ED4174FC3C900F32E28 /* YGExecutableDocument.h */,
 				784D4ED5174FC3C900F32E28 /* YGExecutableDocument.m */,
+				789F26CD17FB297D00C50B90 /* YGGCov.h */,
+				789F26CE17FB297D00C50B90 /* YGGCov.m */,
 				784D4EDC174FCD6D00F32E28 /* Executable */,
 				788108DA174FBA7900AAFC74 /* YGExecutableDocument.xib */,
 				788108DD174FBA7A00AAFC74 /* MainMenu.xib */,
@@ -315,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				788108D2174FBA7900AAFC74 /* main.m in Sources */,
+				789F26CF17FB297D00C50B90 /* YGGCov.m in Sources */,
 				78810902174FBD1400AAFC74 /* YGFatBinary.m in Sources */,
 				784D4ED6174FC3C900F32E28 /* YGExecutableDocument.m in Sources */,
 				784D4EDF174FCD9D00F32E28 /* YGExecutable.m in Sources */,
@@ -445,7 +451,7 @@
 		788108F7174FBA7A00AAFC74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -461,7 +467,7 @@
 		788108F8174FBA7A00AAFC74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;

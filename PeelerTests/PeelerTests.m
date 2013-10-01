@@ -8,6 +8,7 @@
 
 #import "PeelerTests.h"
 #import "YGExecutable.h"
+#import "YGGCov.h"
 
 @implementation PeelerTests
 
@@ -29,7 +30,8 @@
 - (void) testAllocation
 {
 
-    YGExecutable * exe = [[YGExecutable alloc] initWithData:nil];
-    STAssertNil(exe, @"Executable allocation should be nil when passing nil");
+    //YGExecutable * exe = [[YGExecutable alloc] initWithData:nil];
+    YGGCov *cov = [[YGGCov alloc] init];
+    STAssertNil(nil, @"Executable allocation should be nil when passing nil");
 }
 @end
